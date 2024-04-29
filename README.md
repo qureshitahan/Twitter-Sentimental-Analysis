@@ -56,14 +56,17 @@ Initializes and trains the model with smoothing parameter for handling unseen wo
 Evaluates the model using the defined evaluation function.
 
 11. Logistic Regression Model (Part 13):
+    
 Initializes and trains the model with regularization and maximum iterations parameters.
 Utilizes all available processors for faster training.
 Evaluates the model using the defined evaluation function.
 
 12. Model Persistence (Part 14):
+    
 Saves the trained vectorizer and models (Logistic Regression) using pickle serialization for later use.
 
 13. Prediction Functions (Part 15):
+    
 Defines functions to load saved models and predict sentiment for new text data.
 The predict function preprocesses the input text, uses the model for prediction, and returns a DataFrame with text and predicted sentiment.
 Demonstrates loading models and predicting sentiment for sample text (requires uncommenting specific lines).
